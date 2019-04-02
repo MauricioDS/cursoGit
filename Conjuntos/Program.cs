@@ -54,6 +54,8 @@ namespace Conjuntos
 
             Console.WriteLine();            
             Console.WriteLine();
+
+            Console.WriteLine("Aprendo sobre o git e o github");
             /*
             Console.Write("Digite um valor inteiro: ");
             int N = int.Parse(Console.ReadLine());
