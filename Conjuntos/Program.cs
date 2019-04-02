@@ -39,10 +39,10 @@ namespace Conjuntos
             Console.WriteLine();
 
             // Diferença entre conjunto ( A - B)
-            //A.ExceptWith(B);
+            A.ExceptWith(B);
 
             // União entre A e B (A + B)
-            //A.UnionWith(B);
+            A.UnionWith(B);
             // Intersecção de A em B
             A.IntersectWith(B);
 
@@ -56,7 +56,7 @@ namespace Conjuntos
             Console.WriteLine();
 
             Console.WriteLine("Aprendo sobre o git e o github");
-            /*
+            
             Console.Write("Digite um valor inteiro: ");
             int N = int.Parse(Console.ReadLine());
 
@@ -66,7 +66,7 @@ namespace Conjuntos
             } else
             {
                 Console.WriteLine($"{N} não pertence ao conjunto B.");
-            } */
+            } 
         }
     }
 }
